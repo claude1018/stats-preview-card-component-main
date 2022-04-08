@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "challenge from frontendmentor",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "parcel-namer-custom": {
+    ".scss$": "app/css/[name]-[hash].[type]",
+    ".(png|jpe?g)$": "app/images/[name]-[hash].[ext]"
+  },
   "scripts": {
     "dev": "parcel serve src/index.html --port 3000",
     "build": "parcel build src/index.html"
@@ -11,6 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.4.1",
-    "parcel": "^2.4.1"
+    "parcel": "^2.4.1",
+    "parcel-namer-custom": "^0.2.0"
   }
 }
