@@ -1,0 +1,36 @@
+@use './variables' as helper;
+
+@media only screen and (min-width: 620px) {
+  .stat-card {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 10.3125rem;
+    padding-bottom: 0;
+    max-height: 28.125rem;
+    & .row-one {
+      & .img-wrapper {
+        border-radius: 0 helper.$card-radius helper.$card-radius 0;
+        & img.desktop {
+          display: block;
+          mix-blend-mode: multiply;
+        }
+        & img.mobile {
+          display: none;
+        }
+      }
+    }
+    & .row-two {
+      width: 50%;
+      padding: 3rem;
+      padding-right: 5rem;
+      & .done {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  footer.attribution {
+    font-size: 12px;
+  }
+}

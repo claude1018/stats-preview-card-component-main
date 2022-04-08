@@ -1,0 +1,15 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "challenge from frontendmentor",
+  "scripts": {
+    "dev": "parcel serve src/index.html --port 3000",
+    "build": "parcel build src/index.html"
+  },
+  "author": "claude",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1"
+  }
+}
