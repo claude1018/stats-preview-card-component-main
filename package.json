@@ -2,6 +2,7 @@
   "name": "stats-preview-card-component-main",
   "version": "1.0.0",
   "description": "challenge from frontendmentor",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "dev": "parcel serve src/index.html --port 3000",
     "build": "parcel build src/index.html"
